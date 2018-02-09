@@ -201,6 +201,7 @@ void LoyaltyPointAccountant::onCorpListClicked(const QModelIndex & index)
 	// set filtering in ProxyModel
 	m_CorpLPProxyModel.setFilterRegExp(QRegExp(eveCorpName));
 	ui->tvPerCorporation->resizeColumnsToContents();
+	ui->tvPerCorporation->horizontalHeader()->setSectionResizeMode(1, QHeaderView::ResizeToContents);
 
 	updateTotalLP();
 }
@@ -211,7 +212,7 @@ void LoyaltyPointAccountant::onCharListClicked(const QModelIndex & index)
 	QString eveCharName = index.data().toString();
 	// set filtering in ProxyModel
 	m_CharLPProxyModel.setFilterRegExp(QRegExp(eveCharName));
-	ui->tvPerCharacter->resizeColumnsToContents();
+	ui->tvPerCharacter->horizontalHeader()->setSectionResizeMode(3, QHeaderView::ResizeToContents);
 }
 
 void LoyaltyPointAccountant::on_pbAddCharacter_clicked()
