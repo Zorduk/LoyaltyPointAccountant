@@ -1,0 +1,3 @@
+[submodule "PortableDbBackend"]
+	path = PortableDbBackend
+	url = git@github.com:Zorduk/PortableDbBackend.git

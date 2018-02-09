@@ -24,7 +24,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 include(Crypto++/Crypto++.pri)
 
-include(PortableDBBackend/PortableDbBackend.pri)
+include(PortableDbBackend/PortableDbBackend.pri)
 
 
 SOURCES += \
