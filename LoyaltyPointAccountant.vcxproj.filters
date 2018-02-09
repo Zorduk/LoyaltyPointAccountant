@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{ccde3950-05cd-4449-a3dc-95013df35283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LocalDb">
+      <UniqueIdentifier>{66f0c5ac-140d-44ae-882c-142ec9d601ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EsiQueries">
+      <UniqueIdentifier>{f359a92c-6ed1-4488-b4d4-e5cd15d1e738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypto++">
+      <UniqueIdentifier>{99215323-92c3-4991-8e62-3e14a0a3389e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eve">
+      <UniqueIdentifier>{5386d7dc-bab7-49fd-85b4-726fe1c4373e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PortableDbBackend">
+      <UniqueIdentifier>{3aeb78ad-56d2-4775-b63d-220d2fdd0bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LoyaltyPointAccountant.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_databackend_pimpl.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_databackend_pimpl.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_databackend.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_databackend.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_LoyaltyPointAccountant.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_LoyaltyPointAccountant.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_EveAuthentication.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_EveAuthentication.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_EsiQueryBase.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_EsiQueryBase.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_EsiQuery.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_EsiQuery.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_EsiApiConnectorPrivate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_EsiApiConnectorPrivate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_EsiApiConnector.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_EsiApiConnector.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\3way.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\adler32.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\algparam.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\arc4.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\asn.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\authenc.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\base32.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\base64.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\basecode.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\bfinit.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\blake2.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\blowfish.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\blumshub.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\camellia.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\cast.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\casts.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\cbcmac.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\ccm.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\chacha.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\channels.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\cmac.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\cpu.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\crc.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\cryptlib.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\default.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\des.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\dessp.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\dh.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\dh2.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\dll.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\dsa.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\eax.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\ec2n.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\ecp.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\elgamal.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\emsa2.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\esign.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\files.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\filters.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\fips140.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\gcm.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\gf2_32.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\gf2n.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\gf256.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\gfpcrypt.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\gost.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\gzip.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\hex.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\hmac.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\hrtimer.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\ida.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\idea.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\integer.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\iterhash.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\keccak.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\luc.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\mars.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\marss.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\md2.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\md4.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\md5.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\misc.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\modes.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\mqueue.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\mqv.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\nbtheory.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\network.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\oaep.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\osrng.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\panama.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\pkcspad.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\pssr.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\pubkey.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\queue.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\rabin.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\randpool.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\rc2.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\rc5.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\rc6.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\rdtables.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\rijndael.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\ripemd.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\rng.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\rsa.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\rw.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\safer.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\salsa.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\seal.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\seed.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\serpent.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\sha.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\sha3.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\shacal2.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\shark.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\sharkbox.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\skipjack.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\sosemanuk.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\square.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\squaretb.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\tea.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\tftables.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\tiger.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\tigertab.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\trdlocal.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\ttmac.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\twofish.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\vmac.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\wait.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\wake.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\whrlpool.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\winpipes.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\xtr.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\xtrcrypt.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\zdeflate.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\zinflate.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto++\zlib.cpp">
+      <Filter>Crypto++</Filter>
+    </ClCompile>
+    <ClCompile Include="Eve\EsiQuery.cpp">
+      <Filter>Eve</Filter>
+    </ClCompile>
+    <ClCompile Include="Eve\EsiQueryBase.cpp">
+      <Filter>Eve</Filter>
+    </ClCompile>
+    <ClCompile Include="Eve\EveAuthentication.cpp">
+      <Filter>Eve</Filter>
+    </ClCompile>
+    <ClCompile Include="Eve\EsiApiConnectorPrivate.cpp">
+      <Filter>Eve</Filter>
+    </ClCompile>
+    <ClCompile Include="Eve\EsiApiConnector.cpp">
+      <Filter>Eve</Filter>
+    </ClCompile>
+    <ClCompile Include="PortableDBBackend\databackend.cpp">
+      <Filter>PortableDbBackend</Filter>
+    </ClCompile>
+    <ClCompile Include="PortableDBBackend\databackend_pimpl.cpp">
+      <Filter>PortableDbBackend</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="PortableDbBackend\DbHandler.cpp">
+      <Filter>PortableDbBackend</Filter>
+    </ClCompile>
+    <ClCompile Include="PortableDbBackend\DbHandlerPrivate.cpp">
+      <Filter>PortableDbBackend</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DbHandler.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DbHandler.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DbHandlerPrivate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DbHandlerPrivate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="models\CharacterAuthModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_CharacterAuthModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_CharacterAuthModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="localDb\DbCharAuthData.cpp">
+      <Filter>LocalDb</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DbCharAuthData.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DbCharAuthData.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="localDb\DbLoyaltyPoints.cpp">
+      <Filter>LocalDb</Filter>
+    </ClCompile>
+    <ClCompile Include="models\LPModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Queries\EsiQueryLP.cpp">
+      <Filter>EsiQueries</Filter>
+    </ClCompile>
+    <ClCompile Include="models\CorpModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_CorpModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_CorpModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Queries\EsiQueryCorpName.cpp">
+      <Filter>EsiQueries</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_EsiQueryCorpName.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_EsiQueryCorpName.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_EsiQueryLP.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_EsiQueryLP.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="localDb\DbCorporation.cpp">
+      <Filter>LocalDb</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DbCorporation.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DbCorporation.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DbLoyaltyPoints.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DbLoyaltyPoints.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_LoyaltyPointAccountant.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="Eve\EsiApiConnector.h">
+      <Filter>Eve</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Eve\EsiApiConnectorPrivate.h">
+      <Filter>Eve</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Eve\EsiQuery.h">
+      <Filter>Eve</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Eve\EsiQueryBase.h">
+      <Filter>Eve</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Eve\EveAuthentication.h">
+      <Filter>Eve</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PortableDBBackend\databackend.h">
+      <Filter>PortableDbBackend</Filter>
+    </CustomBuild>
+    <ClInclude Include="models\LPModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PortableDBBackend\databackend_pimpl.h">
+      <Filter>PortableDbBackend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PortableDbBackend\DbHandler.h">
+      <Filter>PortableDbBackend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PortableDbBackend\DbHandlerPrivate.h">
+      <Filter>PortableDbBackend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\CharacterAuthModel.h">
+      <Filter>Model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="localDb\DbCharAuthData.h">
+      <Filter>LocalDb</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LoyaltyPointAccountant.h">
+      <Filter>Main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\CorpModel.h">
+      <Filter>Model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Queries\EsiQueryCorpName.h">
+      <Filter>EsiQueries</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Queries\EsiQueryLP.h">
+      <Filter>EsiQueries</Filter>
+    </CustomBuild>
+    <CustomBuild Include="localDb\DbLoyaltyPoints.h">
+      <Filter>LocalDb</Filter>
+    </CustomBuild>
+    <CustomBuild Include="localDb\DbCorporation.h">
+      <Filter>LocalDb</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="LoyaltyPointAccountant.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Crypto++\3way.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\adler32.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\aes.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\algebra.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\algparam.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\arc4.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\argnames.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\asn.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\authenc.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\base32.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\base64.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\basecode.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\bench.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\blake2.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\blowfish.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\blumshub.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\camellia.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\cast.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\cbcmac.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\ccm.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\chacha.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\channels.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\cmac.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\config.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\cpu.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\crc.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\cryptlib.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\default.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\des.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\dh.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\dh2.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\dll.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\dmac.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\dsa.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\eax.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\ec2n.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\eccrypto.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\ecp.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\elgamal.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\emsa2.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\eprecomp.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\esign.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\factory.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\fhmqv.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\files.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\filters.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\fips140.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\fltrimpl.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\gcm.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\gf2_32.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\gf2n.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\gf256.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\gfpcrypt.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\gost.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\gzip.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\hex.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\hkdf.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\hmac.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\hmqv.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\hrtimer.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\ida.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\idea.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\integer.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\iterhash.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\keccak.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\lubyrack.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\luc.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\mars.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\md2.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\md4.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\md5.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\mdc.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\mersenne.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\misc.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\modarith.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\modes.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\modexppc.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\mqueue.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\mqv.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\nbtheory.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\network.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\nr.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\oaep.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\oids.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\osrng.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\ossig.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\panama.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\pch.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\pkcspad.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\polynomi.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\pssr.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\pubkey.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\pwdbased.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\queue.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\rabin.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\randpool.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\rc2.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\rc5.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\rc6.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\resource.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\rijndael.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\ripemd.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\rng.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\rsa.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\rw.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\safer.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\salsa.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\seal.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\secblock.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\seckey.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\seed.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\serpent.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\serpentp.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\sha.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\sha3.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\shacal2.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\shark.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\simple.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\skipjack.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\smartptr.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\sosemanuk.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\square.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\stdcpp.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\strciphr.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\tea.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\tiger.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\trap.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\trdlocal.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\trunhash.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\ttmac.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\twofish.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\validate.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\vmac.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\wait.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\wake.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\whrlpool.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\winpipes.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\words.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\xtr.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\xtrcrypt.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\zdeflate.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\zinflate.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto++\zlib.h">
+      <Filter>Crypto++</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
