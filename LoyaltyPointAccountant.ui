@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>744</width>
-    <height>582</height>
+    <width>751</width>
+    <height>746</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -106,20 +106,6 @@
               <layout class="QHBoxLayout" name="horizontalLayout_6">
                <item>
                 <layout class="QFormLayout" name="formLayout">
-                 <item row="1" column="0">
-                  <widget class="QLabel" name="labelTotal">
-                   <property name="text">
-                    <string>Total</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="1" column="1">
-                  <widget class="QLineEdit" name="leTotalLP">
-                   <property name="readOnly">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
                  <item row="0" column="0">
                   <widget class="QLabel" name="label_3">
                    <property name="text">
@@ -130,10 +116,51 @@
                  <item row="0" column="1">
                   <widget class="QLineEdit" name="leDivision"/>
                  </item>
+                 <item row="2" column="0">
+                  <widget class="QLabel" name="labelTotal">
+                   <property name="text">
+                    <string>Total</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="1">
+                  <widget class="QLineEdit" name="leTotalLP">
+                   <property name="readOnly">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QLineEdit" name="leNumberOfItems">
+                   <property name="enabled">
+                    <bool>true</bool>
+                   </property>
+                   <property name="readOnly">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QLabel" name="label_4">
+                   <property name="text">
+                    <string>Number of Items</string>
+                   </property>
+                  </widget>
+                 </item>
                 </layout>
                </item>
                <item>
                 <layout class="QFormLayout" name="formLayout_2">
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label_2">
+                   <property name="text">
+                    <string>ISK/LP</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QLineEdit" name="leISKPerLP"/>
+                 </item>
                  <item row="1" column="0">
                   <widget class="QLabel" name="label">
                    <property name="text">
@@ -147,16 +174,6 @@
                     <bool>true</bool>
                    </property>
                   </widget>
-                 </item>
-                 <item row="0" column="0">
-                  <widget class="QLabel" name="label_2">
-                   <property name="text">
-                    <string>ISK/LP</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="0" column="1">
-                  <widget class="QLineEdit" name="leISKPerLP"/>
                  </item>
                 </layout>
                </item>
@@ -213,7 +230,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>744</width>
+     <width>751</width>
      <height>21</height>
     </rect>
    </property>

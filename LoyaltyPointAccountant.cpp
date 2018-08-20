@@ -283,10 +283,12 @@ void LoyaltyPointAccountant::updateTotalLP()
 
 	int64_t LPSum = 0;
 	double ISKSum = 0.0;
+	int64_t NumItems = 0;
 	// now we sum up all entries of our corp filtered proxy model
 	for (int curRow = 0; curRow < m_CorpLPProxyModel.rowCount(); ++curRow)
 	{
 		int64_t Amount = m_CorpLPProxyModel.index(curRow, 4).data(LPModel::sortRole()).toLongLong();
+		NumItems += Amount / Division;
 		int64_t UsableAmount = Amount - (Amount % Division);
 		double ValueOfUsableAmount = ISKPerLP * UsableAmount;
 		LPSum += UsableAmount;
@@ -294,4 +296,5 @@ void LoyaltyPointAccountant::updateTotalLP()
 	}
 	ui->leTotalValue->setText(Locale.toCurrencyString(ISKSum, "ISK"));
 	ui->leTotalLP->setText(Locale.toString(LPSum)+" LP");
+	ui->leNumberOfItems->setText(Locale.toString(NumItems) + " Items");
 }
